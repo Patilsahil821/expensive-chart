@@ -1,0 +1,20 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, crimson, aqua);
+}
+@keyframes example {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: left;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+  }
+  100% {
+    transform: rotate(45deg);
+    transform-origin: left;
+  }
+}
